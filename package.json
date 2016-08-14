@@ -1,0 +1,24 @@
+{
+  "name": "browserify-jade2html",
+  "version": "1.0.0",
+  "description": "Convert jade to html (for use with other transforms like stringify/ngify)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/battlesnake/browserify-jade2html.git"
+  },
+  "author": "Mark K Cowan",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/battlesnake/browserify-jade2html/issues"
+  },
+  "homepage": "https://github.com/battlesnake/browserify-jade2html#readme",
+  "dependencies": {
+    "jade": "^1.11.0",
+    "lodash": "^4.15.0",
+    "through": "^2.3.8"
+  }
+}
