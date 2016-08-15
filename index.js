@@ -27,7 +27,7 @@ module.exports = (filename, options) => {
 		}
 	}
 
-	const ext = (/\.([^\.]*)$/.match(filename) || [null, ''])[1];
+	const ext = (filename.match(/\.([^\.]*)$/) || [null, ''])[1];
 
 	if (options.extensions.indexOf(ext) === -1) {
 		return through();
