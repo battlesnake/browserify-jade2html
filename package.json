@@ -1,6 +1,6 @@
 {
   "name": "browserify-jade2html",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Convert jade to html (for use with other transforms like stringify/ngify)",
   "main": "index.js",
   "scripts": {
